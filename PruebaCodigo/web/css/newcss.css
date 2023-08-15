@@ -1,0 +1,125 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10-07-2023, 13:00:13
+    Author     : 56961
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 5px;
+}
+
+/*For mobile phone: */
+[class*="col-"]{
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px){
+    /*For smartphone: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 932px){
+    /*For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.textofooter{
+    font: normal 12px Verdana, Genova, sans-serif;
+    color: #23D2E5;
+    float: inherit;
+    display: table-cell;
+    padding: 5px;
+    text-align: center;
+}
+
+.paginasidebar{
+    background-image: url(imagenes/Logo_MNHN_2011.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #F0F4F5;
+    border: 2px solid #D9DEDF;
+    padding-top: 5px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    height: 100px;
+}
+
+.paginacontenido{
+    background-image: url(imagenes/IMG_20230601_133413.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #F0F4F5;
+    border: 2px solid #D9DEDF;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    height: 100px;
+}
+
+.imagen{
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+}
+
+.imagen img{
+    max-width: 100%;
+}
+
+/* para 980px o menos */
+@media screen and (max-width: 980px) {
+    #pagewrap {width: 94%;}
+    #content {width: 65%;}
+    #sidebar {width: 30%;}
+}
+
+/* para 700px o menos */
+@media screen and (max-width: 700px) {
+    #content {
+        width: auto;
+        float: none;}
+    #sidebar {
+        width: auto;
+        float: none;}
+}
+
+/* para 480px o menos */
+@media screen and (max-width: 480px) {
+    #header {height: auto;}
+    h1 {font-size: 24px;}
+    #sidebar {display: none;}
+}
